@@ -7,6 +7,13 @@ a {
 a:active {
   color: white;
 }
+form {
+  width: 100%;
+  font-size: 14px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 20px;
+  color: #077054;
+}
 
 .header {
   margin-bottom: 30px;
@@ -22,7 +29,7 @@ a:active {
 }
 .sub-logo {
   margin-top: 2px;
-  font-size: 33px;
+  font-size: 27px;
   text-align: center;
   color: #a8f1de;
 }
@@ -52,7 +59,7 @@ a:active {
 }
 .featured {
   float: right;
-  width: 25%;
+  width: 30%;
 }
 .footer {
   width: 80%;
@@ -65,4 +72,54 @@ a:active {
 }
 .socials {
   float: right;
+}
+.body-content {
+  width: 60%;
+  font-size: 14px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 20px;
+  color: #077054;
+}
+.body-content h5 {
+  font-weight: lighter;
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.body-content h6 {
+  font-size: 15px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  font-weight: lighter;
+}
+.body-content h2 {
+  font-weight: lighter;
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #21a51e;
+}
+.form-group {
+  margin: 10%;
+  width: 100%;
+}
+input {
+  background-color: rgb(192, 190, 190);
+  width: 80%;
+  height: 30px;
+}
+.form-content {
+  margin: 10%;
+}
+.form-content h2 {
+  font-weight: lighter;
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #21a51e;
+}
+button {
+  background-color: #077054;
+  float: right;
+  width: 100px;
+  height: 30px;
+  border-radius: 8px;
 }
